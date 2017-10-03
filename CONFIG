@@ -1,0 +1,24 @@
+[var]
+backuppath = /backup/wikiBackup
+logfile = /home/test/mw-script/log_script
+logrsync = /home/test/mw-script/log_rsync 
+logsql = /home/test/mw-script/log_sql
+key = /home/test/.ssh/id_rsa
+
+[mwpath]
+WIKI = /var/www/wiki
+SOURCE = /var/www/source_wiki
+
+
+[rsync]
+#server,path,user
+server1 = 192.168.1.20,/home/test/wikiBackup,hb
+
+[clean]
+#path,retention-days
+wikiBCK = /backup/wikiBackup,15
+
+[sql]
+#[remote-local + | + user],host,userdb,passdb,dbname,path
+WIKI = local,localhost,wikidb,wikidb,wiki,/backup/wikiBackup
+
