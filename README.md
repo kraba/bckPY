@@ -3,11 +3,11 @@
 
 Il seguente script effettua :
 
--Backup di una o piu' directory contenenti qualsiasi tipo di file - parametro backup
--Dump del database mysql - parametro sql
--Rsync con altri server - parametro rsync
--Svecchiamento delle directory di backup - parametro clean
--Tutti i precedenti parametri in successione - parametro all
+- Backup di una o piu' directory contenenti qualsiasi tipo di file - parametro backup
+- Dump del database mysql - parametro sql
+- Rsync con altri server - parametro rsync
+- Svecchiamento delle directory di backup - parametro clean
+- Tutti i precedenti parametri in successione - parametro all
 
 ## Features
 
